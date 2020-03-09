@@ -1,4 +1,4 @@
-require "pry"
+require "Pry"
 
 def square_array(array)
   array.each do |number|
