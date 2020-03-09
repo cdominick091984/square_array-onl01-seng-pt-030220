@@ -1,6 +1,9 @@
+require "pry"
+
 def square_array(array)
   array.each do |number|
-    array.push(number ** 2)
+    number_squared = number ** 2
+    binding.binding.pry
   end
   array
 end
